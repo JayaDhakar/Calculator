@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(24, 23, 23);
+    background-image: url('https://thumbs.dreamstime.com/b/d-glowing-neon-symbol-icon-calculator-app-isolated-black-background-techno-purple-blue-outline-wireframe-ios-style-152868879.jpg');
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1px;
+
+}
+.calculator{
+    border-style:solid;
+    border-color: white;
+    width: 390px;
+    text-align: center;
+    margin: auto;
+}
+  .container{
+    text-align: center;
+    font-size:50px;
+    margin-top:23px
+}
+
+
+ .table , th , td{
+    text-align: center;
+    font-size: 5px ;
+    border: 1px solid white;
+    border-collapse: collapse;
+    margin:auto;
+    
+}
+ .th , td {
+    padding :5px;
+  
+    border-radius: 10px;
+    background-color: black; 
+} 
+
+/* .button{
+    font-size: 100%;
+    padding: 15px 32px;
+    margin: 40px 20px;
+    width: 100%;
+} */
+button{
+    border-radius: 10px;
+    font-size: 40px;
+    background: #1c1c1c;
+    width: 70px;
+    height: 60px;
+    margin: 6px;
+    color: white;
+}
+/* .button:active{
+    
+background-color: rgb(123, 180, 17);
+} */
+
+
+input{
+    border-radius: 10px;
+    border: 5px solid #244624;
+    font-size:35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 60px;
+    width: 368px;
+    text-align: right;
+    
+}
